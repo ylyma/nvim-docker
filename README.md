@@ -4,7 +4,7 @@
 
 ```bash
 docker build -t nv .
-docker run -t --rm -v $(pwd):/home/dev/workspace nv .
+docker run -t --rm -v $(pwd):/home/dev/workspace nv
 ```
 
 ## or docker-compose.yml
