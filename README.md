@@ -15,7 +15,7 @@ services:
         build: .
         volumes:
             - [SERVER_PATH]:/home/dev/workspace
-        tty:true
+        tty: true
         stdin_open: true
 ```
 ```bash
